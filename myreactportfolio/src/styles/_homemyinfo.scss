@@ -1,0 +1,42 @@
+.myInfo{
+    background: url('../../public/PortfolioHomePageBackground.png') center no-repeat;
+    background-size: 600px;
+    position: relative;
+    margin: auto;
+    //width: 100%;
+    height: 80vh;  
+}
+
+.infoContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.Description{
+    //border: 10px solid red;
+    font-family: "PT Mono";
+    letter-spacing: 1px;
+    text-align: center;
+ 
+    .name{
+        font-size: 3em;
+        font-weight: 400;
+        margin: 0;
+    }
+    .role{
+        padding: .5em 0 .5em 0;
+        font-size: 1.1rem;
+    }
+    .interest{
+        width: 300px;
+        padding-left: 4em;
+        text-align: left;
+        font-size: .8em;
+    }
+    .location{
+        padding: 1rem 0;
+    }
+}
