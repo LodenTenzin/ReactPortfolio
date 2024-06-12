@@ -6,14 +6,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 const Nav = () => {
 
     const tabs = [
-        { id: 1, page: "Home", path: "/", xposition: 69},
-        { id: 2, page: "Work", path: "/portfolio", xposition: 145},
-        { id: 3, page: "About", path: "/resume", xposition: 245},
+        { id: 1, page: "Home", path: "/", xposition: 30},
+        { id: 2, page: "Work", path: "/portfolio", xposition: 112},
+        { id: 3, page: "About", path: "/resume", xposition: 201},
         ];
 
     //adding States
     const [selectedTab, setSelectedTab] = useState(tabs[0]);
-    const[x, setX] = useState(69);
+    const[x, setX] = useState(30);
     const y = 0;
     //const toggleActiveClass = ()
   
@@ -32,7 +32,7 @@ const Nav = () => {
                 <motion.div
                     className="dot"
                     animate={{ x, y}}
-                    transition={{ type: "spring" }}
+                    transition={{ type: "spring", stiffness: 80, mass: 0.5 }}
                 />
             </div>
          </nav>
