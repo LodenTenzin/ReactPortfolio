@@ -1,5 +1,13 @@
-
+body{
+    margin: 0;
+}
+/* Light Theme Colors */
+$darkblue: #005074;
+$lighthover: #585858;
+$grey: #888888;
 
 
 @import "./homemyinfo";
 @import "./nav";
+@import "./portfolio";
+@import "./appcard"
