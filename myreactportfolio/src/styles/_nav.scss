@@ -5,7 +5,8 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: "PT Mono";
+    font-family: "Suse";
+    font-weight: 400;
 }
 
 ul {
@@ -28,7 +29,7 @@ ul {
   .dot {
     height: 8px;
     width: 8px;
-    background-color: $darkblue;
+    background-color: #0099ff;
     border-radius: 50%;
   }
 
@@ -39,7 +40,7 @@ ul {
     color: $grey;
   }
   a.active{
-    color: $darkblue;
+    color: #0099ff;
 
   }
   a.inactive:hover{

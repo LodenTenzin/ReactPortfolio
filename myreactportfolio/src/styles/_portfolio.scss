@@ -5,6 +5,7 @@
     justify-content: left;
     align-items: center;
     margin-left: 50px;
+    overflow-y: auto;
 }
 
 .divcontainer{
@@ -12,6 +13,7 @@
     flex-direction: column;
     justify-content: left;
     margin-bottom: 30px;
+    
     h1{
         font-size: 1.5em;
         font-weight: 400;

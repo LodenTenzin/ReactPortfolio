@@ -1,11 +1,19 @@
 body{
     margin: 0;
+    overflow: hidden;
 }
+
 /* Light Theme Colors */
 $darkblue: #005074;
 $lighthover: #585858;
 $grey: #888888;
 
+@media (prefers-color-scheme: light) {
+    body {
+      background-color: #1f2023;
+      color: #dadada;
+    }
+  }
 
 @import "./homemyinfo";
 @import "./nav";
