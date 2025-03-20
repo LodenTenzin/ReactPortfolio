@@ -6,9 +6,9 @@ const HomeMyInfo = () => {
                 <div className="Description">
                     <h1 className="name">Tenzin Loden</h1>
                     <p className="role">Developer | UX Designer</p>
-                    <p className="interest">Art, Photography, Music, Road Bike, Samuria, Wes Anderson, Food and one with everything enthusiast</p>
+                    <p className="interest">Hello! I am Loden, an enthusiast from NJ sharing my design work archives and projects</p>
                     <div className="location">
-                        <div className="h4">Greater New York City Area</div>
+                        <div className="h4"> </div>
                     </div>
                     </div>
                 </div>

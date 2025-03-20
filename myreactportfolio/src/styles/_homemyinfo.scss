@@ -17,27 +17,32 @@
 
 .Description{
     //border: 10px solid red;
-    font-family: "PT Mono";
+    font-family: "Space Grotesk", PT Mono;
     letter-spacing: 1px;
     text-align: center;
  
     .name{
-        font-size: 3em;
+        font-size: 2em;
         font-weight: 400;
         margin: 0;
+        text-align: left;
     }
     .role{
-        padding: .5em 0 .5em 0;
-        font-size: 1.1rem;
+        margin: 0;
+        font-size: 1rem;
+        color: rgb(131, 131, 131);
+        text-align: left;
     }
     .interest{
-        width: 300px;
-        padding-left: 4em;
+        width: 380px;
+        padding-top: 1em;
         text-align: left;
-        font-size: .8em;
-        line-height: 2em;
+        font-weight: 100;
+        font-size: 1em;
+        line-height: 1.5em;
+        color: black;
     }
     .location{
-        padding: 1rem 0;
+        color: rgb(151, 151, 151);
     }
 }
